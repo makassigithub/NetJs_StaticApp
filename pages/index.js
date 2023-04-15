@@ -1,7 +1,9 @@
 function HomePage(){
     return (
         <main>
-            Blog post
+           <h1>
+                Blog post
+           </h1> 
         </main>
     )
 }

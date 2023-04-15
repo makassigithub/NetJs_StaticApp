@@ -1,11 +1,7 @@
-import NavBar from "../components/NavBar";
-
 function HomePage() {
+  console.log("[Home] page rendered");
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
       <main>
         <h1>Blog post</h1>
       </main>

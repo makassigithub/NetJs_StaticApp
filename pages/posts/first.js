@@ -1,9 +1,9 @@
-import fs from "fs/promises";
-
 import Head from "next/head";
 
+import { getPost } from "../../dataService/posts";
+
 export async function getStaticProps() {
-  const data = await fs.readFile("content/data.json");
+  const data = await getPost("first-post");
   return {
     props: {
       post: JSON.parse(data),

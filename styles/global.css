@@ -1,9 +1,18 @@
+/*Light Theme definition*/
+:root {
+  --background-color: white;
+  --text-color: black;
+  --link-color: darkred;
+}
+
 body {
   font-family: "Courier New", Courier, monospace;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 a {
-  color: darkred;
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -11,5 +20,3 @@ a:hover,
 a:hover {
   text-decoration: underline;
 }
-
-
